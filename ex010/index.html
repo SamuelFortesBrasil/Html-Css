@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Responsivas</title>
+</head>
+<body>
+    <h1>Agora Trabalhando Imagens dinâmicas</h1>
+    <hr>
+    <picture>
+        <source media="(max-width: 700px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1000px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="imagem responsiva">
+    </picture>
+    <hr>
+    <h2>Teste com uma imagem Própria</h2>
+    <picture>
+        <source media="(max-width: 700px )" srcset="imagens/Imagem-p.png">
+        <source media="(max-width:1200px )" srcset="imagens/Imagem-m.png">
+        <img src="imagens/Imagem-g.png" alt="Logo Megaman X Legacy Collection 1">
+    </picture>
+    <hr>
+    <h1>Reprodução de Aúdio em HTML5</h1>
+     <ul>
+        <li>Plants vs Zombies-ost: Mini-games *remake* 
+            <audio src="midia/Pvz Mini Games.mp3" controls loop></audio>
+        </li>
+        <li>Plants vs Zombies-ost: Zomboss Battle <audio src="midia/Zomboss.mp3" controls></audio></li>
+        <li>Plants vs Zombies-ost: Ultimate Battle <audio src="midia/Ultimate Battle.mp3" controls></audio></li>
+     </ul>
+</body>
+</html>

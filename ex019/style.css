@@ -1,0 +1,36 @@
+@charset "UTF-08";
+ 
+body{
+    background-color: rgba(36, 255, 189, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:  rgb(33, 88, 72);
+    font-family: serif;
+}
+h2{
+    color:  rgb(1, 59, 42);
+}
+#Principal{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    background-color: rgb(1, 59, 42);;
+}
+p{
+    color: rgb(19, 49, 41);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.basico{
+ color:rgb(46, 88, 33);
+ font-family: 'Times New Roman', Times, serif;
+}
+.intermediario{
+ color:rgb(88, 84, 33);
+ font-family: 'Times New Roman', Times, serif;
+}
+.avançado{
+    color:rgb(88, 33, 33);
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family:'fonte-android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+/*Palheta de Cores: verde água: #59C9A5 verde forte: #265a4a cinza pastel: #465362 */
+body{
+    background-color: #59C9A5;
+    margin: 0px;
+    font-family: 'fonte-android', Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1{
+    font-family: "Bebas Neue", serif;
+    color: white;
+
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+a:hover{
+    font-size: 14px;
+    color: rgb(204, 203, 203);
+}
+header{
+    background-image: linear-gradient(to top, #225042,#59C9A5 );
+    padding: 1px;
+    margin: 0px;
+}
+nav{
+    background-color: #204e40;
+    margin: 0px;
+    padding-top: 1px;
+}
+header > h1{
+    font-size: 80px;
+    text-align: center;
+}
+header > p{
+    font-size: 18px;
+    text-align: center;
+}
+main{
+ background-color: #ffffff;
+ margin-left: 35px;
+ margin-right: 35px;
+ margin-top: 0px;
+ padding-top: 10px;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+}
+main > h1{
+    font-family: 'fonte-android';
+    color: #225042;
+    background-color: #59c9a541;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main>h2{
+    color: #225042;
+    background-color: #59c9a541;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main>p{
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+div#areaCuriosidade{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 40px 40px 40px;
+    background-color: #59C9A5;
+    border-radius: 10px;
+}
+#tituloCurioso{
+ background-color: #225042;
+ color: white;
+ padding: 10px;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ margin-left: 0px;
+}
+div>p{
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px;
+}
+footer>p{
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
