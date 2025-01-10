@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.section {
+    background-color: white;
+    color: black;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+section#img01{
+    background-image: url('background001.jpg');
+    background-color: rgb(182, 182, 182);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10vh;
+    width: 850px;
+    margin: auto;
+}
+section#img01 > p{
+ background-color: rgba(0, 0, 0, 0.637);
+ border-radius: 10px;
+ color: white;
+
+}
