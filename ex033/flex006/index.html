@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Flex</title>
+    <style>
+        div#pai{
+            background-color: lightgreen;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: flex-start;
+            height: 400px;
+        }
+        .filho{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="filho">A</div>
+        <div class="filho">B</div>
+        <div class="filho">C</div>
+        <div class="filho">D</div>
+        <div class="filho">E</div>
+        <div class="filho">F</div>
+        <div class="filho">G</div>
+    </div>
+</body>
+</html>
