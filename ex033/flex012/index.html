@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Flex</title>
+    <style>
+        div#pai{
+            background-color: lightgreen;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .filho{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+        #A{
+            /* flex-shrink: 1;
+            flex-grow: 1;
+            flex-basis: 250px; */
+            flex: 1 1 200px;
+        }
+        #B{
+          /*  flex-shrink: 2;
+            flex-grow: 4;
+            flex-basis: 250px;*/
+            flex: 1 2 150px;
+        }
+        #C{
+            /* flex-shrink: 1;
+            flex-grow: 2;
+            flex-basis: 250px; */
+            flex: 2 1 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="filho" id="A">A</div>
+        <div class="filho" id="B">B</div>
+        <div class="filho" id="C">C</div>
+    </div>
+</body>
+</html>
