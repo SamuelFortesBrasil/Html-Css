@@ -28,13 +28,19 @@ header > h1{
     flex: initial;
 }
 
+header > nav{
+    display: flex;
+}
+
 header > nav  > a{
     background-color: rgb(136, 192, 211);
     text-decoration: none;
     color: white;
+    margin: 3px;
     font-weight: bold;
     padding: 5px;
     border-radius: 2px;
+    text-align: center;
 }
 
 header > nav  > a:hover{
@@ -50,4 +56,10 @@ main{
      margin: 10px;
      border-radius: 5px;
      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.911);
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+    
 }
