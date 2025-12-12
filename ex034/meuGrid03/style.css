@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+
+#conteiner{
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(6,50px);
+    grid-template-columns: repeat(4,1fr);
+    border: 3px solid lightcoral;
+    gap: 6px;
+}
+
+.caixa1{
+    background-color: lightblue;
+    border: 3px solid rgb(151, 191, 204);
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+.caixa2{
+    background-color: lightyellow;
+    border: 3px solid rgb(223, 223, 153);
+    grid-area: 2 / 1 / 6 / 3;
+}
+
+.caixa3{
+    background-color: rgb(241, 124, 124);
+    border: 3px solid rgb(202, 99, 99);
+    grid-area: 2 / 3 / 6 / 4;
+}
+
+.caixa4{
+    background-color: pink;
+    border: 3px solid rgb(212, 158, 167);
+    grid-area: 2 / 4 / 4 / 5;
+}
+
+.caixa5{
+    background-color: violet;
+    border: 3px solid rgb(199, 107, 199);
+    grid-area: 4 / 4 / 6/ 5;
+}
+.caixa6{
+    background-color: lightgreen;
+    border: 3px solid rgb(114, 189, 114);
+    grid-area: 6/ 1 / 7 / 6;
+}
