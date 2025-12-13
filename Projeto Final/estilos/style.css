@@ -141,3 +141,58 @@ article h2{
   height: 100%;
   border-radius: 8px;
 }
+
+#skill-conteiner{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#skill-conteiner .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#skill-conteiner .nome{
+  font-weight: bold;
+  color: var(--destaque);
+}
+
+.barra{
+  background-color: var(--fundo-principal);
+  width: 100%;
+  height: 8px;
+}
+
+.progresso{
+  height: 100%;
+  background-color: var(--destaque-inverso);
+  border-radius: 5px;
+}
+
+#formacao-conteiner{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.curso{
+  background-color: var(--fundo-principal);
+  padding: 5px;
+  border-radius: 8px;
+  border-left: 3px solid var(--destaque-inverso);
+  transition: 0.5s;
+}
+
+.curso:hover{
+  border-left-width: 15px;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px){
+  #skill-conteiner{
+    grid-template-columns: 1fr 1fr;
+  }
+}
